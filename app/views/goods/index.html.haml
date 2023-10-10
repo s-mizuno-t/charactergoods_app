@@ -1,0 +1,9 @@
+%h1 グッズ一覧
+
+= link_to '追加', new_good_path
+
+- @goods.each do |good|
+  = good.name
+  = good.title
+  = good.character
+  = good.value
