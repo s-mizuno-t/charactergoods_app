@@ -1,0 +1,11 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - bin/*
+    - vendor/**/*
+    - config/environments/*
+    - config/initializers/*
+    - test/**/*
+    - db/schema.rb
+    - db/migrate/**/*
+    - spec/**/*
