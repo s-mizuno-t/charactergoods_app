@@ -9,3 +9,5 @@ AllCops:
     - db/schema.rb
     - db/migrate/**/*
     - spec/**/*
+Documentation:
+  Enabled: false
