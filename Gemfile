@@ -72,6 +72,6 @@ group :test do
   gem 'selenium-webdriver'
 end
 
+gem 'devise'
 gem 'erb2haml'
 gem 'haml-rails'
-gem 'devise'
